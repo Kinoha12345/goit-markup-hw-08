@@ -1,0 +1,204 @@
+.container-header {
+  display: flex;
+}
+
+.ul-header2 {
+    margin-left: 305px;
+}
+
+.ref-acctive {
+    position: relative;
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    &:after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 48px;
+        height: 4px;
+        background-color: var(--brand-color);
+        border-radius: 2px;
+        top: 46px;
+        }
+}
+
+.ref {
+    color: var(--defoult-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    transition-property:color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+
+    &:hover,
+    &:focus {
+        color: var(--brand-color);
+    }
+
+}
+
+.logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+    padding-right: 1098;
+    margin: 0;
+     }
+
+.logo {
+    font-weight: 700;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--defoult-color); 
+    letter-spacing: 0.03em;
+    }
+
+    .logo-web {
+        color: var(--brand-color);
+    }
+
+    .link-header1 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        margin-left: 93px;
+      
+    }
+
+    .link-header2 {
+        margin: auto;
+    }
+
+    .link-header3 {
+        margin: auto;
+        margin-left: 30px;
+      
+    }
+
+    .link-header4 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 50px;
+    }
+
+    .link-header5 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 50px;
+    }
+
+    .link-header2 {
+        display: flex;
+    }
+
+    .header {
+        color: var(--white-color);
+        border-bottom:1px solid #ECECEC;;
+    }
+
+    .contacts { 
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--gray-color);
+        transition-property:color;
+      transition-duration: 250ms;
+      transition-timing-function: linear;
+      transition-delay: 0;
+
+      &:hover,
+      &:focus {
+        color: var(--brand-color);
+        .phone-svg {
+            fill: var(--brand-color);
+        }
+        .mail-svg {
+            fill: var(--brand-color);
+        }
+    }
+        
+
+}
+
+    .contacts2 {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--white-color);
+        }
+
+        .contacts3 {
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--footer-color);
+            }
+
+
+            .mail-svg {
+                width: 16px;
+                height: 12px;    
+            }    
+            
+            
+            .mail-svg {
+                fill: var(--gray-color);
+                margin: auto;
+               margin-right: 10px;
+               transition-property:fill;
+              transition-duration: 250ms;
+              transition-timing-function: linear;
+              transition-delay: 0;
+            }
+
+            .phone-svg {
+                fill: var(--gray-color);
+                width: 10px;
+                height: 16px;
+                margin-right: 10px;
+                transition-property:fill;
+              transition-duration: 250ms;
+              transition-timing-function: linear;
+              transition-delay: 0;
+            }
+
+            
+            
+
+            // .contacts:hover .mail-svg {
+            //     fill: var(--brand-color);
+            // }
+            
+            // .contacts:focus .mail-svg {
+            //     fill: var(--brand-color);
+            // }
+            
+.portfolio-ref-acctive {
+    position: relative;
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 78px;
+        height: 4px;
+        background-color: var(--brand-color);
+        border-radius: 2px;
+        top: 46px;
+     }
+ }
+

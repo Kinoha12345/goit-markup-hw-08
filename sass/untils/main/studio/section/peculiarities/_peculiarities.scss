@@ -1,0 +1,71 @@
+.peculiarities {
+    padding-top: 94px;
+    padding-bottom: 46px;
+}
+
+.ul-peculiarities {
+    display: flex;
+}
+
+.feature-1 {
+    margin-right: 30px;
+max-width: 270px;
+}
+
+.feature-2 {
+    margin-right: 30px;
+    max-width: 270px;
+    }
+    .feature-3 {
+        margin-right: 30px;
+        max-width: 270px;
+        }
+        .feature-4 {
+            max-width: 270px;
+            }
+
+.div-peculiarities {
+    background-color: var(--littlewhite-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.antenna-svg {
+    width: 70px;
+    height: 70px;
+}
+
+.headline5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.paragraph2 {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--gray-color);
+    letter-spacing: 0.03em;
+}
+
+.clock-svg {
+    width: 70px;
+    height: 70px;
+}
+
+.diagram-svg {
+    width: 70px;
+    height: 70px;
+}
+
+.astronaut-svg {
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,234 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--hero-color);
+}
+
+.ul-footer2 {
+    display: flex;
+}
+
+.logo2 {
+    font-weight: 700;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-color); 
+    letter-spacing: 0.03em;
+
+}
+
+.li-footer {
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.contacts2 {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.contacts3 {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-color);
+}
+
+.footer-svg {
+    margin-left: 70px;
+}
+
+.h2-footer {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 12px;
+    color: var(--white-color);
+}
+
+.social-network2 {
+    display: flex;
+}
+
+.instagram-link2 {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-top: 16px;
+    background: rgba(255, 255, 255, 0.1);;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition-property:background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+
+    &:hover,
+    &:focus {
+        background-color: var(--brand-color);
+    }
+
+}
+
+.instagram-svg2 {
+    fill: var(--white-color);
+    width: 20px;
+    height: 20px;
+}
+
+.twitter-link2 {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-top: 16px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);;
+
+    transition-property:background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+
+    &:hover,
+    &:focus {
+        background-color: var(--brand-color);
+    }
+
+}
+
+.twitter-svg2 {
+    fill: var(--white-color);
+    width: 20px;
+    height: 20px;
+}
+
+.facebook-link2 {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-top: 16px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);;
+
+    transition-property:background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+
+    &:hover,
+    &:focus {
+    
+        background-color: var(--brand-color);
+    }
+
+}
+
+.facebook-svg2 {
+    fill: var(--white-color);
+    width: 20px;
+    height: 20px;
+}
+
+.linkedin-link2 {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);;
+
+    transition-property:background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+
+    &:hover,
+    &:focus {
+        background-color: var(--brand-color);
+    }
+
+
+}
+
+.linkedin-svg2 {
+    fill: var(--white-color);
+    width: 20px;
+    height: 20px;
+}
+
+.footer-modal {
+    margin-left: 93px;
+}
+
+.footer-modal-text {
+    margin-bottom: 20px;
+    padding-top: 12px;
+
+    font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--white-color);
+}
+
+.footer-modal-div {
+    display: flex;
+}
+
+.footer-modal-email {
+    width: 358px;
+    height: 50px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+padding: 15px 16px;
+background-color: transparent;
+color: rgba(255, 255, 255, 0.6);;
+outline: none;  
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    background: #2196F3;
+    color: var(--white-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+border: 0px;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+}
+
+.send-footer-svg {
+    fill: var(--white-color);
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
