@@ -272,7 +272,16 @@ address {
 }
 
 .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   transform: translatex(100%);
+}
+
+.menu.is-open {
+  transform: translatex(0);
 }
 
 .logo-menu {
@@ -288,11 +297,10 @@ address {
 }
 
 .button-burger {
+  margin-left: auto;
   background-color: transparent;
   border: 0px;
   padding: 0px;
-  margin-left: 284px;
-  padding-top: 22px;
 }
 
 .svg-burger {
@@ -310,19 +318,24 @@ address {
 }
 
 .menu {
-  position: relative;
+  background-color: var(--white-color);
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
   padding-right: 40px;
+  transition: transform 250ms ease;
 }
 
 .menu_close-btn {
   position: absolute;
   background-color: transparent;
   border: 0px;
-  top: 21px;
-  right: 25.33px;
+  top: 10px;
+  right: 15px;
+  padding-top: 11px;
+  padding-left: 11px;
+  padding-right: 10.33px;
+  padding-bottom: 10.33px;
 }
 
 .menu_item {
