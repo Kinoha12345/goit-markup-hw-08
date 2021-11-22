@@ -86,189 +86,13 @@ address {
 }
 
 .container-header {
-  display: flex;
-  visibility: hidden;
-  height: 0px;
+  display: none;
 }
 
-.ul-header2 {
-  margin-left: 305px;
-}
-
-.ref-acctive {
-  position: relative;
-  color: var(--brand-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.ref-acctive:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 48px;
-  height: 4px;
-  background-color: var(--brand-color);
-  border-radius: 2px;
-  top: 46px;
-}
-
-.ref {
-  color: var(--defoult-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: linear;
-  transition-delay: 0;
-}
-
-.ref:hover, .ref:focus {
-  color: var(--brand-color);
-}
-
-.logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  padding-right: 1098;
-  margin: 0;
-}
-
-.logo {
-  font-weight: 700;
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--defoult-color);
-  letter-spacing: 0.03em;
-}
-
-.logo-web {
-  color: var(--brand-color);
-}
-
-.link-header1 {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 93px;
-}
-
-.link-header2 {
-  margin: auto;
-}
-
-.link-header3 {
-  margin: auto;
-  margin-left: 30px;
-}
-
-.link-header4 {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 50px;
-}
-
-.link-header5 {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 50px;
-}
-
-.link-header2 {
-  display: flex;
-}
-
-.header {
-  color: var(--white-color);
-  border-bottom: 1px solid #ECECEC;
-}
-
-.contacts {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--gray-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: linear;
-  transition-delay: 0;
-}
-
-.contacts:hover, .contacts:focus {
-  color: var(--brand-color);
-}
-
-.contacts:hover .phone-svg, .contacts:focus .phone-svg {
-  fill: var(--brand-color);
-}
-
-.contacts:hover .mail-svg, .contacts:focus .mail-svg {
-  fill: var(--brand-color);
-}
-
-.contacts2 {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-}
-
-.contacts3 {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--footer-color);
-}
-
-.mail-svg {
-  width: 16px;
-  height: 12px;
-}
-
-.mail-svg {
-  fill: var(--gray-color);
-  margin: auto;
-  margin-right: 10px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: linear;
-  transition-delay: 0;
-}
-
-.phone-svg {
-  fill: var(--gray-color);
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: linear;
-  transition-delay: 0;
-}
-
-.portfolio-ref-acctive {
-  position: relative;
-  color: var(--brand-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.portfolio-ref-acctive:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 78px;
-  height: 4px;
-  background-color: var(--brand-color);
-  border-radius: 2px;
-  top: 46px;
+@media screen and (min-width: 768px) {
+  .container-header {
+    display: flex;
+  }
 }
 
 .menu {
@@ -278,6 +102,12 @@ address {
   width: 100vw;
   height: 100vh;
   transform: translatex(100%);
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
 }
 
 .menu.is-open {
@@ -310,6 +140,12 @@ address {
 
 .menu-header {
   display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-header {
+    display: none;
+  }
 }
 
 .menu_close-svg {
@@ -429,5 +265,148 @@ address {
 
 .menu_link-acctive {
   color: var(--brand-color);
+}
+
+.logo {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-right: 1098;
+  margin: 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 1.16;
+  color: var(--defoult-color);
+  letter-spacing: 0.03em;
+  margin-right: 88px;
+}
+
+.logo-web {
+  color: var(--brand-color);
+}
+
+.ul-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: -50px;
+}
+
+.header_item1 {
+  margin-right: 50px;
+}
+
+.ref-acctive {
+  position: relative;
+  color: var(--brand-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.ref-acctive:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background-color: var(--brand-color);
+  border-radius: 2px;
+  top: 28px;
+}
+
+.ref {
+  color: var(--defoult-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+
+.ref:hover, .ref:focus {
+  color: var(--brand-color);
+}
+
+.ul-header2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 84px;
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: var(--gray-color);
+  display: flex;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+
+.contacts:hover, .contacts:focus {
+  color: var(--brand-color);
+}
+
+.contacts:hover .phone-svg, .contacts:focus .phone-svg {
+  fill: var(--brand-color);
+}
+
+.contacts:hover .mail-svg, .contacts:focus .mail-svg {
+  fill: var(--brand-color);
+}
+
+.link-header2 {
+  margin-top: 21px;
+  display: flex;
+}
+
+.link-header3 {
+  display: flex;
+}
+
+.mail-svg {
+  width: 14px;
+  height: 10px;
+}
+
+.mail-svg {
+  fill: var(--gray-color);
+  margin-right: 8px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+
+.link-header2 {
+  display: block;
+  height: 14px;
+}
+
+.link-header3 {
+  margin-top: 8px;
+  display: block;
+  height: 14px;
+}
+
+.phone-svg {
+  fill: var(--gray-color);
+  width: 10px;
+  height: 14px;
+  margin-right: 8px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
 }
 /*# sourceMappingURL=main.css.map */
