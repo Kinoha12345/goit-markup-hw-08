@@ -101,6 +101,8 @@ address {
 }
 
 .menu {
+  display: flex;
+  flex-wrap: wrap;
   position: fixed;
   top: 0;
   left: 0;
@@ -114,6 +116,10 @@ address {
   .menu {
     display: none;
   }
+}
+
+.menu-bottom_block {
+  margin-top: auto;
 }
 
 .menu.is-open {
@@ -195,7 +201,6 @@ address {
 
 .menu_list {
   margin-bottom: -32px;
-  margin-bottom: 302px;
 }
 
 .menu-contact_link1 {
@@ -219,11 +224,10 @@ address {
 }
 
 .menu-contact_list {
-  margin-bottom: -32px;
+  margin-bottom: 64px;
 }
 
 .menu-social_list {
-  margin-top: 64px;
   display: flex;
 }
 
@@ -414,6 +418,12 @@ address {
   fill: var(--brand-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .contacts {
+    font-size: 14px;
+  }
+}
+
 .link-header2 {
   margin-top: 21px;
   display: flex;
@@ -435,6 +445,7 @@ address {
 }
 
 .mail-svg {
+  margin: auto;
   fill: var(--gray-color);
   margin-right: 8px;
   transition-property: fill;
@@ -460,6 +471,7 @@ address {
 }
 
 .phone-svg {
+  margin: auto;
   fill: var(--gray-color);
   width: 10px;
   height: 14px;
