@@ -1,9 +1,13 @@
 .gallery {
-    padding-top: 46px;
-    padding-bottom: 94px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     visibility: hidden;
+    height: 0;
     @media screen and (min-width: 1200px) {
         visibility: visible;
+        padding-top: 46px;
+    padding-bottom: 94px;
+       height: auto; 
     }
 }
 
