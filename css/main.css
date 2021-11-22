@@ -890,6 +890,13 @@ address {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .peculiarities {
+    padding-top: 94px;
+    padding-bottom: 47px;
+  }
+}
+
 .ul-peculiarities {
   display: flex;
   flex-wrap: wrap;
@@ -1684,6 +1691,12 @@ address {
   outline: none;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-modal-email {
+    width: 450px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .footer-modal-email {
     width: 358px;
@@ -1764,6 +1777,13 @@ address {
   background-color: var(--white-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .filtres {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .ul-knob {
