@@ -227,11 +227,19 @@
         <h2 class="gallery__title">Чем мы занимаемся</h2>
         <ul class="gallery__list">
             <li class="gallery__item">
-                
-                    <img src="images/img.jpg" 
-                alt="компьютер и руки" 
-                width="370"
-                height="294">
+                <picture>
+                    <source
+                        srcset="./images/directions/img-desktop-1x-1.jpg 1x,
+                        ./images/directions/img-desktop-2x-1.jpg 2x"
+                        media="(min-width: 1200px)"
+                    />
+                    
+                    <img
+                        src="images/img.jpg"
+                        alt="компьютер и руки"
+                    />
+                </picture>
+                    
                 <div class="gallery__block">
                 <p class="gallery__text">Десктопные приложения</p>
             </div>
@@ -240,22 +248,38 @@
         
             
             <li class="gallery__item">
+                <picture>
+                    <source
+                        srcset="./images/directions/img-desktop-1x-2.jpg 1x,
+                        ./images/directions/img-desktop-2x-2.jpg 2x"
+                        media="(min-width: 1200px)"
+                    />
+                    
+                    <img
+                        src="images/img1.jpg"
+                        alt="компьютер и телефон"
+                    />
+                </picture>
                 
-                <img src="images/img1.jpg" 
-                alt="компьютер и телефон"
-                width="370"
-                height="294">
                 <div class="gallery__block">
                 <p class="gallery__text">Мобильные приложения</p>
             </div>
             
             </li>
             <li class="gallery__item">
+                <picture>
+                    <source
+                        srcset="./images/directions/img-desktop-1x-3.jpg 1x,
+                        ./images/directions/img-desktop-2x-3.jpg 2x"
+                        media="(min-width: 1200px)"
+                    />
+                    
+                    <img
+                        src="images/img2.jpg"
+                        alt="компьютер и планшет"
+                    />
+                </picture>
                 
-                <img src="images/img2.jpg" 
-                alt="компьютер и планшет"
-                width="370"
-                height="294">
                 <div class="gallery__block">
                 <p class="gallery__text">Дизайнерские решения</p>
             </div>
@@ -270,10 +294,26 @@
     <h2 class="team-card__h2">Наша команда</h2>
 <ul class="ul-team-card">
     <li class="team-card__item">
-        <img src="images/img3.jpg" 
-        alt="Игорь Демьяненко"
-        width="270"
-        height="260">
+        <picture>
+            <source
+            srcset="./images/our-team/img1-desktop-1x.jpg 1x,
+                    ./images/our-team/img1-desktop-1x.jpg 2x"
+                    media="(min-width: 1200px)"
+            >
+            <source
+            srcset="./images/our-team/img1-tablet-1x.jpg 1x,
+                    ./images/our-team/img1-tablet-2x.jpg 2x"
+                    media="(min-width: 768px)"
+            >
+            <source
+            srcset="./images/our-team/img1-mob-1x.jpg 1x,
+                    ./images/our-team/img1-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+            >
+            <img src="images/img3.jpg" 
+        alt="Игорь Демьяненко">
+        </picture>
+        
         <div class="div-team-card">
         <h3 class="headline4 h3-team-card1">Игорь Демьяненко</h3>
         <p class="paragraph3 p-team-card1">Product Designer</p>
@@ -310,10 +350,26 @@
     </div>
     </li>
     <li class="team-card__item">
-        <img src="images/img4.jpg"
-         alt="Ольга репина"
-         width="270"
-         height="260">
+        <picture>
+            <source
+            srcset="./images/our-team/img2-desktop-1x.jpg 1x,
+                    ./images/our-team/img2-desktop-1x.jpg 2x"
+                    media="(min-width: 1200px)"
+            >
+            <source
+            srcset="./images/our-team/img2-tablet-1x.jpg 1x,
+                    ./images/our-team/img2-tablet-2x.jpg 2x"
+                    media="(min-width: 768px)"
+            >
+            <source
+            srcset="./images/our-team/img2-mob-1x.jpg 1x,
+                    ./images/our-team/img2-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+            >
+            <img src="images/img4.jpg" 
+            alt="Ольга репина">
+        </picture>
+        
          <div class="div-team-card">
          <h3 class="headline4 h3-team-card2">Ольга Репина</h3>
          <p class="paragraph3 p-team-card2">Frontend Developer</p>
@@ -350,10 +406,26 @@
         </div>
     </li>
     <li class="team-card__item">
-        <img src="images/img5.jpg" 
-         alt="Николай Тарасов"
-         width="270"
-         height="260">
+        <picture>
+            <source
+            srcset="./images/our-team/img3-desktop-1x.jpg 1x,
+                    ./images/our-team/img3-desktop-1x.jpg 2x"
+                    media="(min-width: 1200px)"
+            >
+            <source
+            srcset="./images/our-team/img3-tablet-1x.jpg 1x,
+                    ./images/our-team/img3-tablet-2x.jpg 2x"
+                    media="(min-width: 768px)"
+            >
+            <source
+            srcset="./images/our-team/img3-mob-1x.jpg 1x,
+                    ./images/our-team/img3-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+            >
+            <img src="images/img5.jpg" 
+            alt="Николай Тарасов">
+        </picture>
+        
          <div class="div-team-card">
          <h3 class="headline4 h3-team-card3">Николай Тарасов</h3>
          <p class="paragraph3 p-team-card3">Marketing</p>
@@ -390,10 +462,25 @@
         </div>
     </li>
     <li class="team-card__item">
-        <img src="images/img6.jpg" 
-         alt="Михаил Ермаков"
-         width="270"
-         height="260">
+        <picture>
+            <source
+            srcset="./images/our-team/img4-desktop-1x.jpg 1x,
+                    ./images/our-team/img4-desktop-1x.jpg 2x"
+                    media="(min-width: 1200px)"
+            >
+            <source
+            srcset="./images/our-team/img4-tablet-1x.jpg 1x,
+                    ./images/our-team/img4-tablet-2x.jpg 2x"
+                    media="(min-width: 768px)"
+            >
+            <source
+            srcset="./images/our-team/img4-mob-1x.jpg 1x,
+                    ./images/our-team/img4-mob-2x.jpg 2x"
+                    media="(min-width: 320px)"
+            >
+            <img src="images/img6.jpg" 
+            alt="Михаил Ермаков">
+        </picture>
          <div class="div-team-card">
          <h3 class="headline4 h3-team-card4">Михаил Ермаков</h3>
          <p class="paragraph3 p-team-card4">UI Designer</p>

@@ -233,7 +233,7 @@
 
 .filtres-li {
     
-    width: 450px;
+    width: 100%;
     margin-bottom: 30px;
 
 
@@ -344,7 +344,7 @@
     border-right: 1px solid var(--filtres-color);
 
     @media screen and (min-width: 768px) {
-        padding-bottom: 56px;
+        padding-bottom: 20px;
     }
     @media screen and (min-width: 1200px) {
         
